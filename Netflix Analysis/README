@@ -1,10 +1,23 @@
-Amazon Sales Report
-This project focuses on analyzing Amazon sales data by performing data cleaning and exploratory data analysis (EDA). The dataset contains sales records of clothing items, including attributes such as size, category, and country of purchase.
+Netflix Movie Recommendation System
 
-Key Analysis:
-Data Cleaning: Handled missing values, removed duplicates, and standardized data formats.
-Sales Analysis by Size: Identified the number of clothing items sold per size category.
-Sales Analysis by Category: Examined the distribution of clothing sales across different categories.
-Country-wise Distribution: Analyzed the sales distribution across various countries to identify regional trends.
-The insights gained from this analysis can help in understanding customer preferences and optimizing inventory management.
+This project focuses on analyzing Netflix movie data by cleaning the dataset and performing Exploratory Data Analysis (EDA) to uncover trends in movie genres, ratings, runtime, language distribution, and release years.
 
+Project Workflow:
+
+1. Data Cleaning
+Handled missing values and inconsistencies.
+Converted data types for better analysis.
+Removed duplicates and standardized formats.
+
+2. Exploratory Data Analysis (EDA)
+Top Genre by IMDB Rating: Identified the highest-rated genre among English-language movies.
+Average Runtime of Hindi Movies: Calculated and analyzed the average runtime of movies shot in Hindi.
+Genre Distribution: Counted and visualized all unique genres in the dataset.
+Most Used Languages: Found the top 3 most frequently used languages in movies.
+Year with Most Movie Releases: Determined which year had the highest number of movie releases and visualized the trend.
+Year with the Greatest Total Runtime: Identified the year in which movies had the highest combined runtime.
+
+Technologies Used:
+Python: Data analysis and visualization
+Pandas & NumPy: Data manipulation and cleaning
+Matplotlib & Seaborn: Data visualization
